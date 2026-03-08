@@ -1,0 +1,63 @@
+<!-- name ატრიბუტი გამოიყენება იმისთვის რომ form-ის გაგზავნისას სერვერმა იცოდეს თუ რა სახელი დაარქვას -->
+ <!-- value ატრიბუტი განსაზღვრავს მნიშვნელობას -->
+  <!-- selected ატრიბუტი გამოიყენება drop-down menu-ში -->
+
+ 
+<html>
+<head>
+    <title>BookLand - წიგნების მაღაზია</title>
+</head>
+<body>
+
+    <h1>BookLand</h1>
+    <p>საუკეთესო წიგნები — საუკეთესო ფასად!</p>
+
+   
+
+    <h2>დაგვიკავშირდით</h2>
+
+    <form>
+
+        <label>თქვენი სახელი:</label><br>
+        <input type="text" name="firstname">
+        <br><br>
+
+        <label>თქვენი გვარი:</label><br>
+        <input type="text" name="lastname">
+        <br><br>
+
+        <label>ელ-ფოსტა:</label><br>
+        <input type="email" name="email" placeholder="email...">
+        <br><br>
+
+        <label>საყვარელი ჟანრი (Drop-down):</label><br>
+        <select name="genre">
+        <option value="fantasy" selected>ფანტასტიკა</option>
+        option value="science">მეცნიერება</option>
+        <option value="romance">რომანტიკა</option>
+        <option value="history">ისტორია</option>
+        </select>
+        <br><br>
+
+        <label>თქვენი სქესი:</label><br>
+        <input type="radio" name="gender" value="male"> Male <br>
+        <input type="radio" name="gender" value="female"> Female <br>
+        <input type="radio" name="gender" value="other"> Other <br>
+        <br>
+
+        <label>რის გამო ეძებთ წიგნს?</label><br>
+        <input type="checkbox" name="reason" value="study"> სწავლა <br>
+        <input type="checkbox" name="reason" value="fun"> გართობა <br>
+        <input type="checkbox" name="reason" value="gift"> საჩუქარი <br>
+        <br>
+
+        <label>ასაკი:</label><br>
+        <input type="number" name="age">
+        <br><br>
+
+        <button type="submit">გაგზავნა</button>
+
+    </form>
+
+</body>
+</html>

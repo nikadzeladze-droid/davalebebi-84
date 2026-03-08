@@ -1,0 +1,41 @@
+#doge {
+    text-align: left;
+    text-decoration: underline;
+    color: white;
+    background-color: orange;
+}
+
+#sus {
+    text-align: center;
+    text-decoration: line-through;
+    color: red;
+    background-color: black;
+}
+
+#gigachad {
+    text-align: right;
+    text-decoration: overline;
+    color: white;
+    background-color: gray;
+}
+
+#trollface {
+    text-align: center;
+    text-decoration: underline;
+    color: green;
+    background-color: lightgray;
+}
+
+#bruh {
+    text-align: justify;
+    text-decoration: none;
+    color: blue;
+    background-color: yellow;
+}
+
+#rickroll {
+    text-align: center;
+    text-decoration: underline;
+    color: purple;
+    background-color: pink;
+}
