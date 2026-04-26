@@ -1,0 +1,64 @@
+body {
+    background: #ffffff;
+}
+
+
+.contact {
+    width: 525px;
+    margin: 60px auto;
+}
+
+
+
+.title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+
+
+
+.stitle {
+    text-align: center;
+    color: #616161;
+    margin-bottom: 30px;
+}
+
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+
+.field {
+    padding: 12px;
+    border: 1px solid  #616161;;
+    border-radius: 7px;
+}
+
+
+.area {
+    height: 120px;
+}
+
+
+.btt {
+    margin-top: 20px;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    background: linear-gradient(to right, #45329c, #4940af);
+    color: #ffffff;
+    font-size: 16px;
+
+}

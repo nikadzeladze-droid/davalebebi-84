@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    background: #4CAF50;
+    font-family: Arial;
+}
+
+.parent {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box {
+    width: 350px;
+    background: #eee;
+    padding: 25px;
+    text-align: center;
+}
+
+
+.box input,
+.box textarea {
+    width: 100%;
+    margin: 8px auto ;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.box button {
+    width: 100%;
+    padding: 10px;
+    background: #3c973f;
+    color: white;
+    border: none;
+}

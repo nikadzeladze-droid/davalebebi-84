@@ -1,0 +1,21 @@
+#parent {
+    display: flex;
+    width: 800px;
+    height: 350px;
+    border: 2px solid black;
+}
+
+.child {
+    width: 200px;
+    height: 200px;
+}
+
+#child1{
+    flex-grow: 1;
+    background-color: rgb(0, 191, 255);
+}
+
+#child2{
+    flex-grow: 3;
+    background-color: rgb(0, 192, 0);
+}

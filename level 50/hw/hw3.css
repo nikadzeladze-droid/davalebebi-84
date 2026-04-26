@@ -1,0 +1,39 @@
+body{
+    margin:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:#eee;
+}
+
+.container{
+    display:flex;
+    flex-direction:column-reverse;
+    width:700px;
+    padding:20px;
+    background:white;
+}
+
+.box{
+    height:80px;
+    font-size:30px;
+    display:flex;
+    align-items:center;
+    padding-left:20px;
+}
+
+.green{
+    background:green;
+    color:white;
+}
+
+.blue{
+    background:dodgerblue;
+    color:white;
+}
+
+.yellow{
+    background:gold;
+    color:black;
+}

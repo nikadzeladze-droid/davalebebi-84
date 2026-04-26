@@ -1,0 +1,44 @@
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 30px;
+}
+
+.nika{
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 80%;
+    margin: auto;
+}
+
+.mafia{
+    color: darkblue;
+}
+
+/* ყველა button */
+button{
+    color: white;
+    background-color: gray;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+}
+
+
+.boss{
+    background-color: green;
+    color: yellow;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+#zangi{
+    background-color: crimson;
+    color: white;
+}

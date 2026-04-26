@@ -1,0 +1,50 @@
+body {
+    background: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+}
+
+.list-table {
+    width: 400px;
+    margin: 50px auto;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+
+td {
+    background: rgb(150, 150, 150);
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.number {
+    width: 40px;
+    text-align: center;
+}
+
+.number::before {
+    content: attr(data-num);
+}
+
+.number {
+    background: #80ddff;
+    border-radius: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+
+}
+
+.text {
+    width: 100vh;
+}
+
+.sub {
+    background: rgb(150, 150, 150);
+    padding-left: 40px;
+}
+
+.empty {
+    background: none;
+}

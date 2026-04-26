@@ -1,0 +1,27 @@
+body{
+    margin:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:#eee;
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    padding:20px;
+    background:white;
+}
+
+.box{
+    width:500px;
+    height:90px;
+    background:#4d79ff;
+    color:white;
+    font-size:60px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}

@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+}
+
+p {
+    width: 250px;
+    height: 120px;
+
+    background: lightgray;
+    padding: 20px;
+    border: 15px solid gray;
+    margin: 40px;
+    
+
+}

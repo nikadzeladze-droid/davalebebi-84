@@ -1,0 +1,53 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+nav{
+    background-color: rgb(4, 4, 151);
+    text-align: center;
+    padding: 15px;
+}
+
+nav a{
+    color: white;
+    margin: 15px;
+    font-size: 20px;
+}
+
+nav a:hover{
+    color: yellow;
+}
+
+section{
+    width: 100vh;
+    background-color: white;
+    margin: 30px auto;
+    padding: 25px;
+    border: 3px solid darkblue;
+    border-radius: 15px;
+}
+
+h2{
+    color: darkblue;
+    text-align: center;
+}
+
+p{
+    background-color: lightblue;
+    color: black;
+    padding: 12px;
+    margin: 15px 0;
+    border-left: 5px solid blue;
+    font-size: 18px;
+}
